@@ -1,0 +1,7 @@
+[
+  {"question": "What is 15 * (8 + 2)?", "reference": "150"},
+  {"question": "What is 144 / 12?", "reference": "12"},
+  {"question": "What does MCP stand for in the context of LLM apps?", "reference": "Model Context Protocol, an open standard for connecting tools and data sources to LLM applications."},
+  {"question": "In one sentence, what is LangChain?", "reference": "A framework for building applications with large language models."},
+  {"question": "What is 2 ** 10?", "reference": "1024"}
+]
