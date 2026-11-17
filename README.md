@@ -97,7 +97,7 @@ anthropic    0.960
 ollama       0.780
 ```
 
-## Tracing with LangSmith (optional)
+## Tracing with LangSmith
 
 Set these in `.env` and runs are traced automatically — no code changes:
 
@@ -110,7 +110,7 @@ LANGCHAIN_PROJECT=model-agnostic-agent-stack
 Open the project in the LangSmith UI to inspect each model call, tool call and
 token count.
 
-## MCP (optional)
+## MCP
 
 `src/mcp_tools.py` shows how to load tools from an MCP server (example: the
 filesystem server) and give them to the same LangGraph agent:
